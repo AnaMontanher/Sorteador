@@ -1,0 +1,12 @@
+@media (max-width: 1100px) {
+  #logo {
+    margin: 79px 0;
+    justify-content: center;
+  }
+  .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+/*MOBILE*/

@@ -19,10 +19,14 @@
     />
     <title>NUMBERS - Sorteador</title>
     <!-- ESTILO -->
-    <link rel="stylesheet" href="/sorteador/styles/style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <!-- FONTES -->
-    <link rel="stylesheet" href="/sorteador/styles/font-style.css" />
+    <link rel="stylesheet" href="./styles/font-style.css" />
+
+    <!-- MEDIAS -->
+    <link rel="stylesheet" href="./styles/medias.css" />
+
     <!-- JavaScript -->
   </head>
   <body>
@@ -136,24 +140,33 @@
         </div>
       </div>
 
-      <div class="content-form">
-        <p id="form-title">Quero sortear:</p>
-        <p id="description">
-          defina o intervalo e a quantidade de números, clique em "Sortear" e
-          veja os resultados na tela. É rápido e fácil!
-        </p>
+      <div class="content__form">
+        <div class="form__text">
+          <p id="form-title">QUERO SORTEAR:</p>
+          <p id="description">
+            defina o intervalo e a quantidade de números, clique em "Sortear" e
+            veja os resultados na tela. É rápido e fácil!
+          </p>
+        </div>
         <form action="" id="form">
-          <div class="number-field">
-            <label for="amount">NÚMEROS</label>
-            <input class="display" type="number" value="2" id="amount" />
-          </div>
-          <div class="number-field">
-            <label for="amount">DE</label>
-            <input class="display" type="number" value="1" id="min-number" />
-          </div>
-          <div class="number-field">
-            <label for="amount">A</label>
-            <input class="display" type="number" value="100" id="max-number" />
+          <div id="fields">
+            <div class="number-field">
+              <label for="amount">NÚMEROS</label>
+              <input class="display" type="number" value="2" id="amount" />
+            </div>
+            <div class="number-field">
+              <label for="amount">DE</label>
+              <input class="display" type="number" value="1" id="min-number" />
+            </div>
+            <div class="number-field">
+              <label for="amount">A</label>
+              <input
+                class="display"
+                type="number"
+                value="100"
+                id="max-number"
+              />
+            </div>
           </div>
           <div class="option-toggle">
             <button></button>
