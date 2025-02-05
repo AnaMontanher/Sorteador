@@ -1,0 +1,62 @@
+body {
+  font-family: "Sora", serif;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.container {
+  color: #ffffff;
+}
+
+#content__header p {
+  font-family: "Roboto Mono", serif;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+#content__title {
+  line-height: 130%;
+  letter-spacing: -4%;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.content__questions {
+  font-family: "Roboto Flex", serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 150%;
+}
+.question {
+  color: #c58de7;
+  font-size: 14px;
+}
+
+.answer,
+.result__text,
+#description {
+  color: #c7c9cc;
+}
+
+#description {
+  font-family: "Roboto Flex", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+label {
+  font-family: "Roboto Flex", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #c7c9cc;
+}
+
+.display {
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+}

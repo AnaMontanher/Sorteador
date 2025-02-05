@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+body {
+  background: url(/sorteador/assets/Linha.png) #030203;
+  height: 100%;
+  font-family: "Sora", serif;
+}
+
+#logo {
+  display: flex;
+  margin-top: 79px;
+  margin-left: 120px;
+  gap: 13px;
+  align-items: center;
+  margin-bottom: 89px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+  gap: 108px;
+}
+
+#content__header p {
+  margin-bottom: 12px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  min-width: 512px;
+  gap: 32px;
+}
+
+.content__questions {
+  display: flex;
+  align-items: flex-start;
+}
+
+.questions__text {
+  margin-left: 1px;
+}
+
+.display {
+}
